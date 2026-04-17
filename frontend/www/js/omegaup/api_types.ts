@@ -3828,8 +3828,9 @@ export namespace types {
     status: string;
   }
 
-  export interface Group {
+export interface Group {
     alias: string;
+    archived: boolean;
     create_time: Date;
     description?: string;
     name: string;
